@@ -1,0 +1,568 @@
+[
+  {
+    "n": 32,
+    "dt": 0.002,
+    "ambient_real_tangent_rank": 31,
+    "budget": 8,
+    "tau": 0.3,
+    "threshold": 0.005,
+    "timings_seconds": {
+      "assembly": 0.0046187089992599795,
+      "modal_eigh": 0.0001404430004185997,
+      "gramian_40_expm": 0.0032009970000217436,
+      "reference": 0.10500862099979713
+    },
+    "gramian_quadrature_nodes": 40,
+    "matrix_exponentials": 40,
+    "dense_gramian_products": 40,
+    "experimental_runs": [
+      {
+        "ranking": "euclidean",
+        "trigger": "euclidean",
+        "chosen_pairs": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "max_error": 0.034472344436679854,
+        "final_error": 0.03407987566946407,
+        "selections": [
+          {
+            "time": 0.0,
+            "pair": 3,
+            "trigger_e": 0.9983658840630647,
+            "trigger_w": 0.9946792950574093,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 4,
+            "trigger_e": 0.24207439441322046,
+            "trigger_w": 0.14056341645434495,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 5,
+            "trigger_e": 0.18555458289561072,
+            "trigger_w": 0.0861920971956236,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 6,
+            "trigger_e": 0.15349543065664342,
+            "trigger_w": 0.060239392743594994,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 7,
+            "trigger_e": 0.13565387141359886,
+            "trigger_w": 0.048239190781239366,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 8,
+            "trigger_e": 0.12032248266480128,
+            "trigger_w": 0.03976393296074341,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 9,
+            "trigger_e": 0.10941308497341411,
+            "trigger_w": 0.034829609790034424,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          }
+        ],
+        "selection_times": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "number_of_comparisons": 7,
+        "metric_trigger_disagreements": 0,
+        "first_metric_disagreement": null,
+        "number_of_enrichments": 7,
+        "wall_seconds": 0.118545
+      },
+      {
+        "ranking": "transient",
+        "trigger": "transient",
+        "chosen_pairs": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          2,
+          8
+        ],
+        "max_error": 0.0024229258007822654,
+        "final_error": 0.0006365671519867186,
+        "selections": [
+          {
+            "time": 0.0,
+            "pair": 3,
+            "trigger_e": 0.9983658840630647,
+            "trigger_w": 0.9946792950574093,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 4,
+            "trigger_e": 0.24207439441322046,
+            "trigger_w": 0.14056341645434495,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 5,
+            "trigger_e": 0.18555458289561072,
+            "trigger_w": 0.0861920971956236,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 6,
+            "trigger_e": 0.15349543065664342,
+            "trigger_w": 0.060239392743594994,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 7,
+            "trigger_e": 0.13565387141359886,
+            "trigger_w": 0.048239190781239366,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 2,
+            "trigger_e": 0.12032248266480128,
+            "trigger_w": 0.03976393296074341,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 8,
+            "trigger_e": 0.11884478770374972,
+            "trigger_w": 0.033893389112590974,
+            "ranker": "transient",
+            "trigger": "transient"
+          }
+        ],
+        "selection_times": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "number_of_comparisons": 7,
+        "metric_trigger_disagreements": 0,
+        "first_metric_disagreement": null,
+        "number_of_enrichments": 7,
+        "wall_seconds": 0.110958
+      },
+      {
+        "ranking": "transient",
+        "trigger": "euclidean",
+        "chosen_pairs": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          2,
+          8
+        ],
+        "max_error": 0.0024229258007822654,
+        "final_error": 0.0006365671519867186,
+        "selections": [
+          {
+            "time": 0.0,
+            "pair": 3,
+            "trigger_e": 0.9983658840630647,
+            "trigger_w": 0.9946792950574093,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 4,
+            "trigger_e": 0.24207439441322046,
+            "trigger_w": 0.14056341645434495,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 5,
+            "trigger_e": 0.18555458289561072,
+            "trigger_w": 0.0861920971956236,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 6,
+            "trigger_e": 0.15349543065664342,
+            "trigger_w": 0.060239392743594994,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 7,
+            "trigger_e": 0.13565387141359886,
+            "trigger_w": 0.048239190781239366,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 2,
+            "trigger_e": 0.12032248266480128,
+            "trigger_w": 0.03976393296074341,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 8,
+            "trigger_e": 0.11884478770374972,
+            "trigger_w": 0.033893389112590974,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          }
+        ],
+        "selection_times": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "number_of_comparisons": 7,
+        "metric_trigger_disagreements": 0,
+        "first_metric_disagreement": null,
+        "number_of_enrichments": 7,
+        "wall_seconds": 0.112124
+      }
+    ]
+  },
+  {
+    "n": 64,
+    "dt": 0.0005,
+    "ambient_real_tangent_rank": 63,
+    "budget": 8,
+    "tau": 0.3,
+    "threshold": 0.005,
+    "timings_seconds": {
+      "assembly": 0.007906376999017084,
+      "modal_eigh": 0.0006438029995479155,
+      "gramian_40_expm": 0.013257573000373668,
+      "reference": 0.40100137000081304
+    },
+    "gramian_quadrature_nodes": 40,
+    "matrix_exponentials": 40,
+    "dense_gramian_products": 40,
+    "experimental_runs": [
+      {
+        "ranking": "euclidean",
+        "trigger": "euclidean",
+        "chosen_pairs": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "max_error": 0.03464244300699072,
+        "final_error": 0.03427089387498558,
+        "selections": [
+          {
+            "time": 0.0,
+            "pair": 3,
+            "trigger_e": 0.9983883122926213,
+            "trigger_w": 0.994764859718262,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 4,
+            "trigger_e": 0.2507809886402608,
+            "trigger_w": 0.14286821442128322,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 5,
+            "trigger_e": 0.19602185376851025,
+            "trigger_w": 0.0883900270545597,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 6,
+            "trigger_e": 0.16557680795990423,
+            "trigger_w": 0.06245457423233918,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 7,
+            "trigger_e": 0.14899096180019855,
+            "trigger_w": 0.0505139384054461,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 8,
+            "trigger_e": 0.13497871965762648,
+            "trigger_w": 0.04207148580919582,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 9,
+            "trigger_e": 0.12521215873264485,
+            "trigger_w": 0.03715369266310364,
+            "ranker": "euclidean",
+            "trigger": "euclidean"
+          }
+        ],
+        "selection_times": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "number_of_comparisons": 7,
+        "metric_trigger_disagreements": 0,
+        "first_metric_disagreement": null,
+        "number_of_enrichments": 7,
+        "wall_seconds": 0.464915
+      },
+      {
+        "ranking": "transient",
+        "trigger": "transient",
+        "chosen_pairs": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          2,
+          8
+        ],
+        "max_error": 0.002641564092761388,
+        "final_error": 0.000705088607242792,
+        "selections": [
+          {
+            "time": 0.0,
+            "pair": 3,
+            "trigger_e": 0.9983883122926213,
+            "trigger_w": 0.994764859718262,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 4,
+            "trigger_e": 0.2507809886402608,
+            "trigger_w": 0.14286821442128322,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 5,
+            "trigger_e": 0.19602185376851025,
+            "trigger_w": 0.0883900270545597,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 6,
+            "trigger_e": 0.16557680795990423,
+            "trigger_w": 0.06245457423233918,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 7,
+            "trigger_e": 0.14899096180019855,
+            "trigger_w": 0.0505139384054461,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 2,
+            "trigger_e": 0.13497871965762648,
+            "trigger_w": 0.04207148580919582,
+            "ranker": "transient",
+            "trigger": "transient"
+          },
+          {
+            "time": 0.0,
+            "pair": 8,
+            "trigger_e": 0.1335548987461376,
+            "trigger_w": 0.036129261902256925,
+            "ranker": "transient",
+            "trigger": "transient"
+          }
+        ],
+        "selection_times": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "number_of_comparisons": 7,
+        "metric_trigger_disagreements": 0,
+        "first_metric_disagreement": null,
+        "number_of_enrichments": 7,
+        "wall_seconds": 0.460488
+      },
+      {
+        "ranking": "transient",
+        "trigger": "euclidean",
+        "chosen_pairs": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          2,
+          8
+        ],
+        "max_error": 0.002641564092761388,
+        "final_error": 0.000705088607242792,
+        "selections": [
+          {
+            "time": 0.0,
+            "pair": 3,
+            "trigger_e": 0.9983883122926213,
+            "trigger_w": 0.994764859718262,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 4,
+            "trigger_e": 0.2507809886402608,
+            "trigger_w": 0.14286821442128322,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 5,
+            "trigger_e": 0.19602185376851025,
+            "trigger_w": 0.0883900270545597,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 6,
+            "trigger_e": 0.16557680795990423,
+            "trigger_w": 0.06245457423233918,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 7,
+            "trigger_e": 0.14899096180019855,
+            "trigger_w": 0.0505139384054461,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 2,
+            "trigger_e": 0.13497871965762648,
+            "trigger_w": 0.04207148580919582,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          },
+          {
+            "time": 0.0,
+            "pair": 8,
+            "trigger_e": 0.1335548987461376,
+            "trigger_w": 0.036129261902256925,
+            "ranker": "transient",
+            "trigger": "euclidean"
+          }
+        ],
+        "selection_times": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "number_of_comparisons": 7,
+        "metric_trigger_disagreements": 0,
+        "first_metric_disagreement": null,
+        "number_of_enrichments": 7,
+        "wall_seconds": 0.46464
+      }
+    ]
+  }
+]

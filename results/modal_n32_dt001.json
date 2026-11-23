@@ -1,0 +1,102 @@
+[
+  {
+    "n": 32,
+    "Pe_max": 0.06818181818181818,
+    "resolution_scale": 14.758048651498612,
+    "budget": 8,
+    "method": "euclidean",
+    "max_error": 0.03447234444498252,
+    "final_error": 0.03407987568045127,
+    "num_active": 8,
+    "tangent_rank": 8,
+    "selected": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tau": 0.3,
+    "dt": 0.001
+  },
+  {
+    "n": 32,
+    "Pe_max": 0.06818181818181818,
+    "resolution_scale": 14.758048651498612,
+    "budget": 8,
+    "method": "transient",
+    "max_error": 0.0024229257642875593,
+    "final_error": 0.0006365671698018517,
+    "num_active": 8,
+    "tangent_rank": 8,
+    "selected": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      2,
+      8
+    ],
+    "tau": 0.3,
+    "dt": 0.001
+  },
+  {
+    "n": 32,
+    "Pe_max": 0.06818181818181818,
+    "resolution_scale": 14.758048651498612,
+    "budget": 12,
+    "method": "euclidean",
+    "max_error": 0.03445612364759979,
+    "final_error": 0.03405819532244685,
+    "num_active": 12,
+    "tangent_rank": 12,
+    "selected": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "tau": 0.3,
+    "dt": 0.001
+  },
+  {
+    "n": 32,
+    "Pe_max": 0.06818181818181818,
+    "resolution_scale": 14.758048651498612,
+    "budget": 12,
+    "method": "transient",
+    "max_error": 0.0009177133154813071,
+    "final_error": 0.00022843340730990716,
+    "num_active": 12,
+    "tangent_rank": 12,
+    "selected": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      2,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tau": 0.3,
+    "dt": 0.001
+  }
+]

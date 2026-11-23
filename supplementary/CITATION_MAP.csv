@@ -1,0 +1,16 @@
+section_or_subsection,bibitem_key,nearby_claim_excerpt
+Introduction and positioning,trefethen,t apparent from its eigenvalues. Resolvent and semigroup perspectives are standard in non-normal dynamics
+Introduction and positioning,moore,"nite matrix is a finite-horizon observability Gramian, related to classical balancing and model reduction"
+Introduction and positioning,yao,ing the McLachlan residual is already central to adaptive variational quantum dynamics simulation (AVQDS)
+Introduction and positioning,gomes,central to adaptive variational quantum dynamics simulation (AVQDS) and adaptive imaginary-time evolution
+Introduction and positioning,endo,tive imaginary-time evolution . Variational treatment of non-unitary processes predates the present study
+Introduction and positioning,jin," processes predates the present study ; alternative quantum PDE formulations include Schr\""odingerization"
+Introduction and positioning,lubasch," ; alternative quantum PDE formulations include Schr\""odingerization , while variational quantum PDE work"
+Introduction and positioning,over,"DE formulations include Schr\""odingerization , while variational quantum PDE work and boundary treatments"
+Transport--diffusion model and discrete geometry,brenner,"M_h^{-1/2} y$ satisfies the discrete homogeneous boundary conditions exactly, by conventional elimination"
+"Energy balance, transients, and spatial resolution",brooks,tion-dominated layers; streamline-upwind/Petrov--Galerkin stabilization is a well-established alternative
+Phase-consistent normalized McLachlan dynamics,mclachlan,"l phase velocity, and the remaining horizontal term is $J-G$. Following McLachlan's variational principle"
+Gramian identity and representation costs,moore,"-theoretic construction associated with finite-horizon model reduction, not an entirely new matrix object"
+Gramian identity and representation costs,higham,"gral by quadrature after building dense matrix exponentials, whose numerical analysis is well established"
+Residual-based error assessment,simoncini,conversion of the bound back to Euclidean norm incurs $(P)^{-1/2}$ and may worsen its numerical sharpness
+"Norm choice, bound conservatism and finite-element error",simoncini,xperimentally demonstrated improvement in bound tightness. Methods for such matrix equations are standard

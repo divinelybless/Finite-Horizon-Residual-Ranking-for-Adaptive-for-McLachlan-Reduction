@@ -1,0 +1,99 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "threadpool": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/pyvenv/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/pyvenv/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "runs": [
+    {
+      "n": 32,
+      "quadrature_nodes": 40,
+      "dense_expm_calls": 40,
+      "dense_gramian_products": 40,
+      "full_dense_diffusion_eigh": 1,
+      "scoring_decisions": 7,
+      "evaluated_candidates": 189,
+      "metric_cholesky_fact_count": 7,
+      "reference_hardware": "single-threaded local container, illustrative only",
+      "eigensolver": {
+        "median_s": 0.0001018130005832063,
+        "min_s": 8.965599954535719e-05,
+        "max_s": 0.00019860000065818895,
+        "runs": 9
+      },
+      "gramian": {
+        "median_s": 0.0026988770005118567,
+        "min_s": 0.002550203000282636,
+        "max_s": 0.0036270800010242965,
+        "runs": 9
+      },
+      "euclidean_seven_scores": {
+        "median_s": 0.006195300000399584,
+        "min_s": 0.005485077999765053,
+        "max_s": 0.006961097999010235,
+        "runs": 9
+      },
+      "transient_seven_scores": {
+        "median_s": 0.006340040001305169,
+        "min_s": 0.005637387999740895,
+        "max_s": 0.010112809999554884,
+        "runs": 9
+      }
+    },
+    {
+      "n": 64,
+      "quadrature_nodes": 40,
+      "dense_expm_calls": 40,
+      "dense_gramian_products": 40,
+      "full_dense_diffusion_eigh": 1,
+      "scoring_decisions": 7,
+      "evaluated_candidates": 413,
+      "metric_cholesky_fact_count": 7,
+      "reference_hardware": "single-threaded local container, illustrative only",
+      "eigensolver": {
+        "median_s": 0.0003495479995763162,
+        "min_s": 0.0003253720005886862,
+        "max_s": 0.0004279569984646514,
+        "runs": 9
+      },
+      "gramian": {
+        "median_s": 0.011702382000294165,
+        "min_s": 0.010999780000929604,
+        "max_s": 0.012326003999987734,
+        "runs": 9
+      },
+      "euclidean_seven_scores": {
+        "median_s": 0.012761652000335744,
+        "min_s": 0.01241414700052701,
+        "max_s": 0.014637645999755478,
+        "runs": 9
+      },
+      "transient_seven_scores": {
+        "median_s": 0.01389309099977254,
+        "min_s": 0.013302459001351963,
+        "max_s": 0.014599749998524203,
+        "runs": 9
+      }
+    }
+  ]
+}

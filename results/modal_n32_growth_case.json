@@ -1,0 +1,48 @@
+[
+  {
+    "n": 32,
+    "Pe_max": 0.26515151515151514,
+    "resolution_scale": 6.024948132556827,
+    "budget": 8,
+    "method": "euclidean",
+    "max_error": 0.007718472489270686,
+    "final_error": 0.002552099582570772,
+    "num_active": 8,
+    "tangent_rank": 8,
+    "selected": [
+      1,
+      3,
+      5,
+      4,
+      2,
+      7,
+      6,
+      9
+    ],
+    "tau": 0.3,
+    "dt": 0.002
+  },
+  {
+    "n": 32,
+    "Pe_max": 0.26515151515151514,
+    "resolution_scale": 6.024948132556827,
+    "budget": 8,
+    "method": "transient",
+    "max_error": 0.007718472489270687,
+    "final_error": 0.002552099582570772,
+    "num_active": 8,
+    "tangent_rank": 8,
+    "selected": [
+      1,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9
+    ],
+    "tau": 0.3,
+    "dt": 0.002
+  }
+]

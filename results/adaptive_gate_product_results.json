@@ -1,0 +1,190 @@
+[
+  {
+    "n": 8,
+    "method": "euclidean",
+    "p_max": 3,
+    "p_final": 3,
+    "pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "enrichment_events": [
+      [
+        0.0,
+        3,
+        6.331196637354568
+      ],
+      [
+        0.0,
+        4,
+        0.11297953967992616
+      ]
+    ],
+    "max_error": 0.03172681055938063,
+    "final_error": 0.031025165269538593,
+    "threshold": 0.005,
+    "tau": 0.3,
+    "integrator": "parameter RK4",
+    "orientation": "left-prepend new factor at zero angle"
+  },
+  {
+    "n": 8,
+    "method": "transient",
+    "p_max": 3,
+    "p_final": 3,
+    "pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "enrichment_events": [
+      [
+        0.0,
+        3,
+        0.4511981492729136
+      ],
+      [
+        0.0,
+        4,
+        0.0036902983815749013
+      ]
+    ],
+    "max_error": 0.03172681055938063,
+    "final_error": 0.031025165269538593,
+    "threshold": 0.005,
+    "tau": 0.3,
+    "integrator": "parameter RK4",
+    "orientation": "left-prepend new factor at zero angle"
+  },
+  {
+    "n": 8,
+    "method": "euclidean",
+    "p_max": 5,
+    "p_final": 5,
+    "pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "enrichment_events": [
+      [
+        0.0,
+        3,
+        6.331196637354568
+      ],
+      [
+        0.0,
+        4,
+        0.11297953967992616
+      ],
+      [
+        0.0,
+        5,
+        0.043197485701716436
+      ],
+      [
+        0.0,
+        6,
+        0.014334196083556766
+      ]
+    ],
+    "max_error": 0.031650986313635325,
+    "final_error": 0.030925608479028407,
+    "threshold": 0.005,
+    "tau": 0.3,
+    "integrator": "parameter RK4",
+    "orientation": "left-prepend new factor at zero angle"
+  },
+  {
+    "n": 8,
+    "method": "transient",
+    "p_max": 5,
+    "p_final": 5,
+    "pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "enrichment_events": [
+      [
+        0.0,
+        3,
+        0.4511981492729136
+      ],
+      [
+        0.0,
+        4,
+        0.0036902983815749013
+      ],
+      [
+        0.0,
+        5,
+        0.0008955452857224764
+      ],
+      [
+        0.0,
+        6,
+        0.00020555765691535426
+      ]
+    ],
+    "max_error": 0.031650986313635325,
+    "final_error": 0.030925608479028407,
+    "threshold": 0.005,
+    "tau": 0.3,
+    "integrator": "parameter RK4",
+    "orientation": "left-prepend new factor at zero angle"
+  }
+]

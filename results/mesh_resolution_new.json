@@ -1,0 +1,41 @@
+[
+  {
+    "n": 16,
+    "max_Pe": 0.1323529411764706,
+    "alpha": -0.4775806157725526,
+    "mu2": -0.41988621186765346,
+    "scaled_comm": 0.017878930875726156,
+    "operator_norm_max_t0_1": 1.0,
+    "reference_growth_end": 0.614548614563822,
+    "relative_fem_ref_difference_next_mesh_t1": 0.004695659204274336
+  },
+  {
+    "n": 32,
+    "max_Pe": 0.06818181818181818,
+    "alpha": -0.47737672494232214,
+    "mu2": -0.4188530333819784,
+    "scaled_comm": 0.00940106011355474,
+    "operator_norm_max_t0_1": 1.0,
+    "reference_growth_end": 0.6132879417221647,
+    "relative_fem_ref_difference_next_mesh_t1": 0.0012510070171945617
+  },
+  {
+    "n": 64,
+    "max_Pe": 0.03461538461538462,
+    "alpha": -0.47732259176459035,
+    "mu2": -0.41857629172528193,
+    "scaled_comm": 0.004866315735590588,
+    "operator_norm_max_t0_1": 1.0,
+    "reference_growth_end": 0.61293157740701,
+    "relative_fem_ref_difference_next_mesh_t1": 0.00032291781289456973
+  },
+  {
+    "n": 128,
+    "max_Pe": 0.01744186046511628,
+    "alpha": -0.4773086029541971,
+    "mu2": -0.4185046103698268,
+    "scaled_comm": 0.0024822842604241037,
+    "operator_norm_max_t0_1": null,
+    "reference_growth_end": 0.6128379738882341
+  }
+]

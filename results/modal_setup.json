@@ -1,0 +1,16 @@
+{
+  "n": 32,
+  "a0": 0.1,
+  "beta": 0.25,
+  "D": 0.05,
+  "gamma": 0.05,
+  "dt": 0.002,
+  "T": 1.0,
+  "tau": 0.3,
+  "threshold": 0.005,
+  "coordinate_basis": "mass-whitened Dirichlet diffusion modes",
+  "candidate_pool": "(0,j) for 1<=j<n",
+  "enrichment": "repeat per step until threshold or budget",
+  "full_tangent_rank": 31,
+  "no_hardware": "true"
+}
